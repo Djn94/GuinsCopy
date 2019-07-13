@@ -5,7 +5,7 @@ import Navbar from "./components/navbar/Navbar";
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 import Card from './components/card/card';
-import penguins from './penguins.json.js';
+import penguins from './penguins.json';
 import Container from './components/cardwrapper/Container'
 class App extends Component {
   state = { penguins }
